@@ -5,7 +5,7 @@
   "homepage": "https://idrahoner.github.io/team-markup-project-rocket",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /team-markup-project-rocket /"
+    "build": "parcel build src/*.html --public-url /team-markup-project-rocket/"
   },
   "repository": {
     "type": "git",
