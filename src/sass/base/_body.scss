@@ -1,0 +1,27 @@
+body {
+  background-color: var(--primary-white-color);
+  color: var(--primary-balck-color);
+
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+}
+
+.title {
+  color: var(--primary-black-color);
+
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.21;
+}
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+
+  @media screen and (min-width: 768px) {
+    scroll-padding-top: 79px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    scroll-padding-top: 89px;
+  }
+}

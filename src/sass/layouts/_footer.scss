@@ -1,0 +1,24 @@
+.footer {
+  background-color: rgba(6, 7, 27, 1);
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.footer .container {
+  color: var(--primary-white-color);
+
+  padding-left: 24px;
+}
+.copyright {
+  height: 34px;
+
+  font-family: 'Inter';
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.21;
+
+  @media screen and (max-width: 320px) {
+    width: 193px;
+  }
+}

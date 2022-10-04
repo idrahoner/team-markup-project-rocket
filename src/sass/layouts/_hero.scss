@@ -1,0 +1,136 @@
+.hero {
+  position: relative;
+  z-index: 0;
+
+  padding-top: 182px;
+  padding-bottom: 122px;
+  overflow: hidden;
+
+  background-color: #06071b;
+
+  @media screen and (min-width: 768px) {
+    overflow: visible;
+
+    padding-top: 142px;
+    padding-bottom: 143px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    padding-top: 243px;
+    padding-bottom: 146px;
+  }
+}
+
+.hero__title {
+  margin-bottom: 12px;
+
+  font-size: 24px;
+  line-height: 1.2;
+
+  color: #ffffff;
+  @media screen and (min-width: 768px) {
+    font-size: 40px;
+  }
+}
+
+.hero__title--secondary {
+  width: 241px;
+  margin-bottom: 20px;
+
+  font-size: 18px;
+  line-height: 1.22;
+  @media screen and (min-width: 768px) {
+    margin-bottom: 28px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+}
+
+.hero__list {
+  margin-bottom: 40px;
+
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.25;
+  color: #ffffff;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 60px;
+
+    font-size: 16px;
+    line-height: 1.19;
+  }
+}
+
+.hero__item {
+  display: flex;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 12px;
+  }
+}
+
+.hero__item::before {
+  content: '';
+  display: block;
+  margin-right: 4px;
+  width: 18px;
+  height: 18px;
+  background: url(../images/hero/icon-hero-arrow.svg);
+}
+
+.hero__button {
+  margin-right: calc((100% - 200px) / 2);
+  margin-left: calc((100% - 200px) / 2);
+
+  @media screen and (min-width: 768px) {
+    margin-right: auto;
+    margin-left: 0;
+  }
+}
+
+.picture__wrapper {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 663px;
+  overflow: hidden;
+  transform: translate(-50%, -42%);
+
+  @media screen and (min-width: 768px) {
+    height: 558px;
+    transform: translate(-50%, -33%);
+  }
+
+  @media screen and (min-width: 1280px) {
+    height: 678px;
+    transform: translate(-50%, -36%);
+  }
+}
+
+.hero__image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 566px;
+
+  transform: translate(-48%, -50%);
+
+  @media screen and (min-width: 768px) {
+    width: 893px;
+    transform: translate(-51%, -50%);
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 1280px;
+    transform: translate(-47%, -50%);
+  }
+}

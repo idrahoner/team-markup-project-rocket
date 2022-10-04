@@ -1,0 +1,136 @@
+.team {
+    padding-top: 40px;
+    background-image: url(../images/team/bg-img-team-420@1x.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media screen and(min-width: 768px) {
+        padding-top: 80px;
+        background-image: url(../images/team/bg-img-team-768@1x.png);
+      }
+
+      @media screen and(min-width: 1280px) {
+        background-image: url(../images/team/bg-img-team-1280@1x.png);
+      }
+}
+
+.title {
+    text-align: center;      
+}
+.text {   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #000000;
+    text-align: center;
+    margin-top: 24px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+
+    @media screen and (min-width: 1280px) {
+        width: 886px;
+        margin-bottom: 80px;
+    }
+
+}
+
+.team__list {     
+    @media screen and (min-width: 768px) {
+        gap: 40px 32px;    
+        display: flex; 
+        flex-wrap: wrap;
+      }
+  }
+
+.team__item {
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 15px;
+
+    @media screen and (max-width:768px) {
+        &:nth-child(-n + 3) {
+        margin-bottom: 24px;
+        }   
+    } 
+
+    @media screen and (min-width: 480px) {
+        width: 280px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 336px;
+    }
+    
+    @media screen and (min-width: 1280px) {
+        width: 288px;
+        }
+}
+.team-picture {
+    display: block;
+    padding: 16px 16px 24px 16px;
+
+    @media screen and (min-width: 768px){
+    padding: 20px;
+  }
+
+    @media screen and (min-width: 1280px) {
+    padding: 14px 12px 20px 12px;
+    
+  }
+}
+
+.team-foto {
+    border-radius: 10px;
+}
+
+.team__descr {
+  padding-bottom: 12px;
+}
+
+.team__name {
+    color: var( --primary-white-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.2;
+
+    margin-bottom: 12px;
+
+    text-align: center;
+}
+
+.team__position {
+    color: var( --primary-white-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.7;
+
+    text-align: center;
+}
+
+
+.member-1 {
+    background: linear-gradient(312.87deg, rgba(0, 197, 235, 0.5) -0.2%, rgba(181, 68, 254, 0.5) 112.66%), #06071B;
+    backdrop-filter: blur(17.5px);
+}
+
+.member-2 {
+    background: linear-gradient(105.09deg, rgba(0, 197, 235, 0.5) -13.66%, rgba(181, 68, 254, 0.5) 104.34%), #06071B;
+    backdrop-filter: blur(17.5px);
+}
+
+.member-3 {
+    background: linear-gradient(105.09deg, rgba(0, 197, 235, 0.5) -13.66%, rgba(181, 68, 254, 0.5) 104.34%), #06071B;
+    backdrop-filter: blur(17.5px);
+
+}
+
+.member-4 {
+    background: linear-gradient(313.81deg, rgba(0, 197, 235, 0.5) -7.83%, rgba(181, 68, 254, 0.5) 83.61%), #06071B;
+    backdrop-filter: blur(17.5px);
+}
+
